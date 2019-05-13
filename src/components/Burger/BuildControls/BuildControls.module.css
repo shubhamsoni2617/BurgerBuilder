@@ -1,0 +1,29 @@
+.BuildControls{
+    width: 100%;
+    background-color: #cf8f2e;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+.Button{
+    color: #cf8f2e;
+    cursor: pointer;
+    background-color: green;
+}
+
+.Button:disabled{
+    color: rgb(34, 31, 31);
+    cursor: not-allowed;
+    background-color: #cf8f2e;
+}
+
+.Button:hover:disabled{
+    color: black;
+    cursor: not-allowed;
+    background-color: #cf8f2e;
+}
